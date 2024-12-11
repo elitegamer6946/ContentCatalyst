@@ -27,3 +27,27 @@ Additionally, you'll need to configure the following API keys:
    ```bash
    git clone https://github.com/yourusername/content-catalyst.git
    cd content-catalyst
+2. **Create an apikey.py file in the same directory with your API keys**:
+   ```python
+   google_gemini_api_key = "your-google-api-key-here"
+   openai_api_key = "your-openai-api-key-here"
+
+4. **Run the Streamlit app**:
+   ```bash
+   streamlit run app.py
+   
+5. **Access the app in your browser at http://localhost:8501/.**
+
+**Example Use**:
+**Here’s an example of how to use the Content Catalyst app to generate blog content**:
+**Enter a Blog Title**: For example, "The Future of Artificial Intelligence".
+**Input Keywords**: For example, "AI, machine learning, deep learning, future technology".
+**Set the Number of Words**: Choose the desired length for your blog post (e.g., 500 words).
+**Click the "Generate Blog" Button**: The app will generate the blog post and an image based on the provided keywords.
+
+**Example Walkthrough**:
+1.Open the app and input the blog title, such as "The Future of AI in Healthcare."
+2.Enter a list of relevant keywords, such as "healthcare, artificial intelligence, medical technology."
+3.Choose your preferred blog length, for example, 750 words.
+4.Click the "Generate Blog" button.
+5.The app will generate a blog post and display an AI-generated image related to the keywords.
